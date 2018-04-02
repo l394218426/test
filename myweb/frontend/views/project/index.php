@@ -62,11 +62,11 @@
 <!--content-->
 <div class="content">
 	<div class="container">
-			<div class="content-top">
-				<h2 class="new">NEW GAMES</h2>
+			<div class="content-top" >
+				<h2 class="new">新游戏</h2>
 			
 			<div class="wrap">	
-			<div class="main">
+			<div class="main" >
 				<ul id="og-grid" class="og-grid">
 					<li>
 						<a href="#" data-largesrc="images/1.jpg" data-title="Subway Surfers" data-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque malesuada purus a convallis dictum. Phasellus sodales varius diam, non sagittis lectus. Morbi id magna ultricies ipsum condimentum scelerisque vel quis felis.. Donec et purus nec leo interdum sodales nec sit amet magna. Ut nec suscipit purus, quis viverra urna.">

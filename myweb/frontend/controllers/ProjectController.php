@@ -39,7 +39,7 @@ class ProjectController extends BaseController
     public function actionNews()
     {
 
-        return $this->render('404');
+        return $this->render('single');
     }
 
     //博客

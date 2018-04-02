@@ -8,21 +8,23 @@ WwwAsset::register($this);
 <!DOCTYPE html>
 <html>
 <head>
-<title>Game Sky</title>
-    <?php $this->head() ?>
+<title>Home</title>
+<?=$this->head()?>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-
+<script src="js/jquery.min.js"></script>
 <!-- Custom Theme files -->
 <!--theme-style-->
-
 <!--//theme-style-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Games Center Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-</head>
-<body> 
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
 
+<!--//fonts-->
+<script src="js/modernizr.custom.js"></script>
+</head>
 <body> 
 <!--header-->	
 <div class="header" >
@@ -31,13 +33,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="top-head" >	
 			<ul class="header-in">
 				<li ><a href="#" >  帮助</a></li>
-				<li><a href="contact.html">   
-联系我们</a></li>
+				<li><a href="contact.html">   关于我们</a></li>
 				<li ><a href="#" >   如何使用？</a></li>
 			</ul>
 				<div class="search">
 					<form>
-						<input type="text" value="请输入您想搜索的内容 ?" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '请输入您想搜索的内容 ?';}" >
+						<input type="text" value="search about something ?" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'search about something ?';}" >
 						<input type="submit" value="" >
 					</form>
 				</div>
@@ -59,15 +60,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="top-nav">		
 			  <span class="menu"><img src="images/menu.png" alt=""> </span>
 				
-					<ul>
-						<li class="active"><a class="color1" href="<?=UrlServices::HomeUrl('index')  ?>"  >首页</a></li>
-						<li><a class="color2" href="<?=UrlServices::HomeUrl('games')  ?>" > 游戏中心</a></li>
-						<li><a class="color3" href="<?=UrlServices::HomeUrl('reviews')  ?>" > 回顾</a></li>
-						<li><a class="color4" href="<?=UrlServices::HomeUrl('news')  ?>" > 最新游戏资讯</a></li>
-						<li><a class="color5" href="<?=UrlServices::HomeUrl('blog')  ?>"  > 博客</a></li>
-						<li><a class="color6" href="<?=UrlServices::HomeUrl('contact')  ?>" > 联系我们</a></li>
-						<div class="clearfix"> </div>
-					</ul>
+				  <ul>
+                        <li class="active"><a class="color1" href="<?=UrlServices::HomeUrl('index')  ?>"  >首页</a></li>
+                        <li><a class="color2" href="<?=UrlServices::HomeUrl('games')  ?>" > 游戏中心</a></li>
+                        <li><a class="color3" href="<?=UrlServices::HomeUrl('reviews')  ?>" > 回顾</a></li>
+                        <li><a class="color4" href="<?=UrlServices::HomeUrl('news')  ?>" > 最新游戏资讯</a></li>
+                        <li><a class="color5" href="<?=UrlServices::HomeUrl('blog')  ?>"  > 博客</a></li>
+                        <li><a class="color6" href="<?=UrlServices::HomeUrl('contact')  ?>" > 联系我们</a></li>
+                        <div class="clearfix"> </div>
+                    </ul>
 
 					<!--script-->
 				<script>

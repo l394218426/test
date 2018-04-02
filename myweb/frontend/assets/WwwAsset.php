@@ -36,3 +36,4 @@ class WwwAsset extends AssetBundle
         'yii\bootstrap\BootstrapAsset',
     ];
 }
+  
